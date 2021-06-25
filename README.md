@@ -61,5 +61,5 @@ It produced a precision of 0.05 for high risk loans and 1.00 for low risk loans.
 The ensemble methods had better balanced accuracy than the sampling methods. However, with the low recall on high risk loans that the balanced random forest model
 provided I would not recommend using it over the SMOTEENN. Every model had great preecision on low risk loans however the sampling models did not have a good recall on
 the low risk loans. Overall the best model is the Easy Ensemble model as it scores highly on everything where it is finding a lot of the low and high risk loans while still
-offering comparable quality. Its high recall rate on high risk loans would make it the most useful model since further investigation into those high risk loans could then be
-done. 
+offering comparable quality. Its high recall rate on high risk loans would make it the most useful model since it would catch more of the risky loans and allow for further 
+investigation to determine their viability by other means. 
