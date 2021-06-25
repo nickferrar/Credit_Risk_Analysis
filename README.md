@@ -63,3 +63,6 @@ provided I would not recommend using it over the SMOTEENN. Every model had great
 the low risk loans. Overall the best model is the Easy Ensemble model as it scores highly on everything where it is finding a lot of the low and high risk loans while still
 offering comparable quality. Its high recall rate on high risk loans would make it the most useful model since it would catch more of the risky loans and allow for further 
 investigation to determine their viability by other means. 
+
+However, I still would not use it as it only catches about 93% of high risk loans and I would not want to take any risk of those getting not being caught by the model. I would
+continue to train a model that can achieve 100% recall rate.
